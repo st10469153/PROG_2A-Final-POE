@@ -7,53 +7,53 @@ In an era where cyber threats are rapidly expanding due to generative AI and sop
 
 Cipher was built to solve this problem by:
 
-    Educating: Delivering interactive, easy-to-understand definitions and mitigation tactics for concepts like Hacking, Phishing, and Safe Browsing.
+* Educating: Delivering interactive, easy-to-understand definitions and mitigation tactics for concepts like Hacking, Phishing, and Safe Browsing.
 
-    Testing: Challenging users via a dedicated multiple-choice quiz interface to reinforce learning.
+* Testing: Challenging users via a dedicated multiple-choice quiz interface to reinforce learning.
 
-    Acting: Working as a personalized Task Assistant backed by a MySQL database to help users organize, schedule, and review critical cybersecurity habits (like setting up 2FA or auditing privacy settings).
+* Acting: Working as a personalized Task Assistant backed by a MySQL database to help users organize, schedule, and review critical cybersecurity habits (like setting up 2FA or auditing privacy settings).
 
 ✨ Features
 💬 Core Chatbot Engine (Cipher)
 
-    Dynamic Content Routing: Implements rule-based intent mapping to provide relevant security definitions, real-time advice, and actionable guidance based on user questions.
+* Dynamic Content Routing: Implements rule-based intent mapping to provide relevant security definitions, real-time advice, and actionable guidance based on user questions.
 
-    Randomized Tip Delivery: Uses a randomized selection pool to deliver fresh, diverse cybersecurity tips when users ask about safe web browsing, avoiding repetitive responses.
+* Randomized Tip Delivery: Uses a randomized selection pool to deliver fresh, diverse cybersecurity tips when users ask about safe web browsing, avoiding repetitive responses.
 
 🧠 Dedicated Quiz Framework
 
-    Gamified Learning: Users can launch a dedicated multiple-choice interface to test their cybersecurity knowledge.
+* Gamified Learning: Users can launch a dedicated multiple-choice interface to test their cybersecurity knowledge.
 
-    State Management Navigation: Smoothly switches from the main conversation view into a completely separate XAML evaluation frame, tracking progress and score before automatically returning to the chat.
+* State Management Navigation: Smoothly switches from the main conversation view into a completely separate XAML evaluation frame, tracking progress and score before automatically returning to the chat.
 
 📋 Database-Backed Task Storage (MySQL Integration)
 
-    Automated Persistence: Connects to a local MySQL engine to natively store custom security tasks.
+* Automated Persistence: Connects to a local MySQL engine to natively store custom security tasks.
 
-    Command-Driven Management: Allows users to interact with their data seamlessly via regular chat commands:
+* Command-Driven Management: Allows users to interact with their data seamlessly via regular chat commands:
 
-        view tasks — Lists all pending tasks, descriptions, and custom alerts.
+    * view tasks — Lists all pending tasks, descriptions, and custom alerts.
 
-        add task: Title | Description | ReminderDays — Schedules a new cybersecurity task.
+    * add task: Title | Description | ReminderDays — Schedules a new cybersecurity task.
 
-        delete task: ID — Removes or clears tasks upon completion.
+    * delete task: ID — Removes or clears tasks upon completion.
 
 🛠️ Built With
 
-    Frontend: XAML (WPF - Windows Presentation Foundation)
+* Frontend: XAML (WPF - Windows Presentation Foundation)
 
-    Backend: C# (.NET 8.0 / .NET Framework)
+* Backend: C# (.NET 8.0 / .NET Framework)
 
-    Database: MySQL (via MySql.Data Connector)
+* Database: MySQL (via MySql.Data Connector)
 
-    IDE: Visual Studio 2022
+* IDE: Visual Studio 2022
 
 🚀 Getting Started
 Prerequisites
 
-    Visual Studio 2022 with the .NET Desktop Development workload installed.
+* Visual Studio 2022 with the .NET Desktop Development workload installed.
 
-    A local MySQL server instance running (via XAMPP, WAMP, or standard MySQL Installer).
+* A local MySQL server instance running (via XAMPP, WAMP, or standard MySQL Installer).
 
 Database Configuration
 
@@ -66,10 +66,7 @@ Note: The application will automatically create the cyber_tasks database and the
 Setup Instructions
 
 
-    git clone https://github.com/yourusername/Cipher-Cybersecurity-Chatbot.git
+* Open the .sln solution file in Visual Studio 2022.
 
-    Open the .sln solution file in Visual Studio 2022.
-
-    Restore any missing NuGet packages (MySql.Data).
-
-    Press F5 or click Start to build and run the application!
+* Restore any missing NuGet packages (MySql.Data).
+* Press F5 or click Start to build and run the application!
