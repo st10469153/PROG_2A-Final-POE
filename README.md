@@ -49,6 +49,10 @@ Cipher was built to solve this problem by:
 * IDE: Visual Studio 2022
 
 🚀 Getting Started
+
+# This repository contains a video on how the application works. 
+Search for ChatbotApp.mp4
+
 Prerequisites
 
 * Visual Studio 2022 with the .NET Desktop Development workload installed.
